@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body, html{
+    background-color: #f0f4f4;
+    font-family: 'Arimo', sans-serif;
+}
+
+.container{
+    margin: 80px auto 0 auto;
+    max-width: 1200px;
+}
+
+.nav-container{
+    margin: 0 0 0 auto;
+}
+
+.nav-brand-button{
+    font-size: 40px;
+}
+
+.userHandle-idea{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.login-form-container{
+    box-shadow: 0px -1px 5px 2px rgba(196,186,196,1);
+    max-height: 400px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login-header{
+    font-size: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: 3px;
+}
+
+.login-textfields{
+    margin-bottom: 20px;
+}
+
+.login-textfield{
+    margin-bottom: 20px;
+}
+
+.login-button{
+    text-align: center;
+}
+
+.signup-form-container{
+    box-shadow: 0px -1px 5px 2px rgba(196,186,196,1);
+    max-height: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.home-profile-container{
+    box-shadow: 0px -1px 5px 2px rgba(196,186,196,1);
+    margin-left: 30px;
+    background-color: #e0f2f1;
+}
+
+.home-profile-upper{
+    height: 200px;
+    
+}
+
+.home-profile-image-container{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 4px solid #26a69a;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 15%);
+}
+
+.home-profile-lower{
+    max-height: 400px;
+    padding: 30px;
+}
+
+
+.home-profile-item{
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.handleIcon{
+    text-align: left;
+    width: 20%;
+}
+
+.home-handle{
+    font-size: 18px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.icons-home-prof{
+    transform: scale(1.8);
+}
+
+.home-handle-web{
+    font-size: 17px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.home-handle-h{
+    font-size: 24px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.unauth-prof-container{
+    box-shadow: 0px -1px 5px 2px rgba(196,186,196,1);
+    max-height: 600px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 30px;
+    background-color: #28CDA5;
+    border-radius: 10px;
+}
+
+.unauth-login-button{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.unauth-signup-button{
+    text-align: center;
+}
+
+.progress-bar{
+    margin: 0 auto;
+}
+
+.editIcon{
+    text-align: left;
+}
+
+.post-icon{
+    
+    padding: 7px;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 50%;
+    transition: 0.1s ease-in;
+}
+
+.nav-container-auth{
+    margin: 0 auto;
+}
+
+.post-icon:hover{
+    background-color: #D04B87;
+}
+
+.like-and-comment{
+    display: flex;
+    vertical-align: bottom;
+    margin-top: 30px;
+    height: 30px;
+}
+
+.likes-and-comments-count{
+    display: flex;
+    width: 80%;
+
+}
+
+.likes-and-comments-count p{
+    padding: 5px;
+}
+
+.like-and-comment-button{
+    display: flex;
+    padding: 5px;
+}
+
+.likedButton{
+    background-color: #D04B87;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.unlikedButton{
+    border: 1px solid #00796b;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.deleteButton{
+    float:right;
+    
+}
+
+.deleteB{
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.addIdeaButton{
+    background-color: aquamarine;
+}
+
+.closePostButton{
+    width: 15px;
+}
+
+.submitIdeaButton{
+    margin-top: 20px;
+    float: right;
+}
+
+.dialog{
+    margin-top: 10px;
+}
+
+.dialog-container-info{
+    display: flex;
+    overflow-wrap: break-word;
+}
+
+.dialog-image-container{
+    width: 200px;
+}
+
+.dialog-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #D04B87;
+    object-fit: cover;
+}
+
+.dialog-content-container{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 40px;
+}
+
+.dialog-content-date{
+    color: #77547C;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.dialogLoad{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.comments-container{
+    margin-top: 20px;
+    vertical-align: top;
+    border-top: 3px solid #D04B87;
+    margin-bottom: 20px;
+}
+
+.comment-item{
+    
+    display: flex;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-bottom: 2px solid #D04B87;
+    margin-bottom: 15px;
+}
+
+.comment-image-container{
+    width: 25%;
+}
+
+.comment-image{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-content{
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+}
+
+.comment-handle{
+    letter-spacing: 2px;
+}
+
+.comment-date{
+    font-size: 12px;
+}
+
+.comment-body{
+    margin-top: 10px;
+}
+
+
+.commentButton{
+    margin-top: 7px;
+}
+
+
+@media only screen and (max-width: 900px){
+    .home-profile-container{
+        display: none;
+    }
+    .unauth-prof-container{
+        display: none;
+    }
+}
+
+
+
